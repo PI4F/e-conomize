@@ -1,0 +1,16 @@
+.filtro-info{
+	font-size: 14px;
+	color: gray;
+}
+
+.e-conBGcolor{
+    background-color: rgb(0, 109, 240);
+}
+
+.e-conBGcolor li:hover{
+    background-color: rgb(23, 131, 255);
+}
+
+body {
+    padding-top: 70px;
+}

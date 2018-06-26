@@ -1,0 +1,181 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/03/2016, 17:13:56
+    Author     : Rodrigo
+*/
+body{
+    font-family: sans-serif;
+}
+.hide{
+    display: none;
+}
+
+/*div{
+    border: 1px silver dashed;
+}*/
+
+/*table,th,td{
+    border: 1px solid red;
+    border-collapse: collapse;
+}*/
+
+.status{
+    /*border: 1px solid blue;*/
+    font-size: 12px;
+    width: 100%;
+}
+
+div.status{
+    float: right;
+    height: 100%;
+    width: 100%;
+    padding: 3px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+legend{
+    font-style: italic;
+}
+
+.fail{
+    display: inline-block;
+    border: 1px solid red;
+    background-color: #ffcccc;
+}
+
+.ativo{
+    display: inline-block;
+    border: 1px solid blue;
+    background-color: #ccccff;
+}
+
+.ok{
+    display: inline-block;
+    border: 1px solid limegreen;
+    background-color: #ccffcc;
+}
+
+div#tabela{
+    width: 41em;
+    margin: 0 auto;
+}
+
+div#button{
+    border: 1px silver solid;
+    border-radius: 3px;
+    padding: 2px 4px 2px 4px; /*espaçamento interno*/
+    display: inline-block; /*mantem o div do tamanho do conteúdo*/
+    font-family: Verdana;
+}
+
+div#button:hover{
+    background-color: #e0f7ff;
+}
+
+tr#titulos{
+    text-align: center;
+    font-weight: bold;
+}
+
+dialog {  
+    width: 500px;  
+    background:#e8e8e8;
+    border: 1px solid gray;
+    font-family:sans-serif;
+    padding: 5px 10px 20px 20px;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.2);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: silver;
+}
+
+/*NÃO aplica o estilo a qualquer INPUT que seja do TYPE SUBMIT*/
+input:not([type="submit"]), textarea, select, option{
+    /*display: block;*/
+    /*width: 100%;*/
+    /*height: 34px;*/
+    padding: 2px 6px;
+    /*font-size: 14px;*/
+    line-height: 1.4;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.2);
+}
+
+label{
+    font-family: Verdana;
+    font-size: 14px;
+  /*vertical-align: top;*/
+    line-height: 200%;
+}
+
+table.form{
+    /*border: 1px solid black;*/
+    width: 100%;
+}
+
+input:disabled {
+    /*vertical-align: middle;*/
+    background-color: #EBEBE4;
+    border: 1px solid #CCC;
+    box-shadow: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="date"]::-webkit-outer-spin-button,
+input[type="date"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="date"] {
+    -moz-appearance: textfield;
+}
+
+input[type="time"]::-webkit-outer-spin-button,
+input[type="time"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="time"] {
+    -moz-appearance: textfield;
+}
+
+fieldset{
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #CCC;
+    /*-webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2);*/
+}
+
+input:disabled, select:disabled, button:disabled {
+    /*vertical-align: middle;*/
+    background-color: #EBEBE4;
+    border: 1px solid #CCC;
+    box-shadow: none;
+    color: silver;
+}

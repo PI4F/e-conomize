@@ -3,13 +3,13 @@
 
 </head>
 <body>
-    {{ $pessoas }}
-    @foreach($pessoas as $pessoa)
+<p> {{ $pessoas }} </p>
+@foreach($pessoas as $pessoa)
         Nome: {{ $pessoa->nome }} <br>
         Telefone:
         @foreach($pessoa->telefone as $telefone)
-            {{ $telefone->telefone }}
+                {{ $telefone->telefone }}
         @endforeach
-    @endforeach
+@endforeach
 </body>
 </html>

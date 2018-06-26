@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="52.8318mm" height="52.8318mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5283 5283"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#006DF0}
+    .fil1 {fill:#009933}
+    .fil2 {fill:white}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M2276 707l1147 0 0 1582 -1147 0 0 -1582z"/>
+    </clipPath>
+    <clipPath id="id1">
+     <path d="M703 1052l4139 0 0 4139 -4139 0 0 -4139z"/>
+    </clipPath>
+ </defs>
+ <g id="V4">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" width="5283" height="5283" rx="781" ry="781"/>
+  <g id="_691938304">
+   <g style="clip-path:url(#id0)">
+    <image x="2276" y="707" width="1147" height="1582" xlink:href="e-conomize_logo_Images\e-conomize_logo_ImgID1.png"/>
+   </g>
+  </g>
+  <path class="fil1" d="M2723 2092l-32 -121 -230 62 -308 -1149 230 -62 -27 -101 230 -62 27 102 230 -62 61 230 -459 123 61 230 460 -123 62 229 -452 121 0 3c-2,6 -3,13 -3,19l57 210 459 -123 62 230 -230 62 32 119 -230 63z"/>
+  <g id="_691940448">
+   <g style="clip-path:url(#id1)">
+    <image x="703" y="1052" width="4139" height="4139" xlink:href="e-conomize_logo_Images\e-conomize_logo_ImgID2.png"/>
+   </g>
+  </g>
+  <path class="fil2" d="M1828 3960c-198,0 -360,162 -360,360 0,198 162,360 360,360 198,0 360,-162 360,-360 0,-198 -162,-360 -360,-360zm-1080 -2879l0 360 360 0 648 1368 -252 432c-18,54 -36,126 -36,180 0,197 162,359 360,359l2159 0 0 -359 -2087 0c-18,0 -36,-18 -36,-36l0 -18 162 -306 1331 0c144,0 252,-72 306,-180l648 -1170c36,-36 36,-54 36,-90 0,-108 -72,-180 -180,-180l-116 0 -197 360 -138 252 -138 252 -138 252 -146 252 -1142 0 -120 -252 -119 -252 -119 -252 -120 -252 -119 -252 -51 -108 -162 -360 -594 0zm2879 2879c-198,0 -360,162 -360,360 0,198 162,360 360,360 198,0 360,-162 360,-360 0,-198 -162,-360 -360,-360z"/>
+ </g>
+</svg>
